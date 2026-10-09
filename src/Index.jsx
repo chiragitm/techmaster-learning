@@ -44,6 +44,7 @@ export default function Index() {
 
 			<main className="mx-auto w-full max-w-7xl flex-1 px-6 py-8">
 				<Routes>
+                    <Route path='/' element={<About />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/courses" element={<Courses />} />
 					<Route path="/faculty" element={<Faculty />} />
